@@ -47,85 +47,30 @@ Tell the participant which app they got and why it suits them (be brief and warm
 
 ---
 
-## Step 3 — Scaffold the project
+## Step 3 — Create the README
 
-Create this folder structure in `projects/<name-lowercased>/` relative to the current working directory:
-
-```
-projects/<name>/
-├── CLAUDE.md
-├── README.md
-├── src/
-│   └── main.ts
-├── data/
-│   └── .gitkeep
-└── package.json
-```
-
-### `CLAUDE.md` content
+Create a single file at `projects/<name-lowercased>/README.md`. No other files.
 
 ```markdown
 # <App Name>
 
 <Two-sentence description of what the app does and who it's for.>
 
-## Stack
+## What it should do
 
-- Runtime: Node.js with TypeScript
-- Storage: Local JSON files in `data/`
-- Interface: Interactive CLI (terminal prompts)
+<3–5 bullet points describing the core features, written as user-facing capabilities.
+Example: "- Log when you last watered each plant">
 
-## Conventions
-
-- Named exports only
-- TypeScript strict mode (`"strict": true`)
-- Prefer functions over classes unless managing complex state
-- Keep files under 200 lines; extract when they grow
-- Use descriptive variable names — no single-letter names outside loop counters
-- No comments that restate what the code does; only comment *why* when non-obvious
-
-<If the participant provided code style preferences, add a `## Team Style` section here and reproduce their guidelines faithfully.>
-
-## Feature Backlog
-
-_Empty — we'll fill this in together during the course._
+<If the participant provided code style preferences, add a `## Style preferences` section here and reproduce their guidelines faithfully.>
 ```
 
-### `README.md` content
-
-```markdown
-# <App Name>
-
-<Same two-sentence description as CLAUDE.md.>
-
-## Getting started
-
-```bash
-npm install
-npm start
-```
-
-## Project layout
-
-| Path | Purpose |
-|------|---------|
-| `src/main.ts` | Entry point |
-| `data/` | Persisted JSON data |
-```
-
-### `src/main.ts` content
-
-A minimal TypeScript stub that prints the app name and a "not implemented yet" message. No business logic.
-
-### `package.json` content
-
-Minimal: name (kebab-case of app name), version `"0.1.0"`, scripts `{ "start": "ts-node src/main.ts", "build": "tsc" }`, dependencies `{ "ts-node": "^10.9.0", "typescript": "^5.0.0" }`.
+That's it. The participant will plan and build the rest themselves during the course.
 
 ---
 
 ## Step 4 — Show the summary
 
-After creating all files, display this summary (fill in the placeholders):
+After creating the file, display this:
 
 ```
 Your project is ready.
@@ -134,18 +79,11 @@ Your project is ready.
   Idea:   <one-liner>
   Folder: projects/<name>/
 
-Files created:
-  CLAUDE.md       project rules and context for Claude
-  README.md       human-readable intro
-  src/main.ts     entry point stub
-  data/           where your app will persist data
-  package.json    run with: npm start
+What's in there:
+  README.md   describes your app and its core features
 
-What to do next (the course will walk you through each):
-  1. Ask Claude to explain the scaffold — "what does each file do?"
-  2. Pick your first feature and run: /plan
-  3. Build it, then have Claude verify it works in the browser
-  4. Publish as an artifact with: /share
+Next up: open the folder in Claude Code and use plan mode to
+figure out how to build it. The course will walk you through each step.
 ```
 
 ---
