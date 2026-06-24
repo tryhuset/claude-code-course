@@ -85,6 +85,7 @@ Project context for Claude Code sessions in this repo.
 - Keep features small and focused.
 - Build only one thing at a time — token cost is real.
 - Plain HTML · CSS · vanilla JS. No build step.
+- No third-party integrations, backends, accounts, or external APIs — everything runs client-side with `localStorage`. Treat any "reminders" as an in-page "due today" list, not push/email notifications.
 
 <!-- FUTURE FEATURE (not yet) -->
 <!-- <One parked feature that extends the app — do NOT build it now.
