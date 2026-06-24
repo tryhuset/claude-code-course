@@ -56,17 +56,3 @@ Claude will ask for your name, then assign you a project and scaffold the folder
    - `CLAUDE.md` — standing instructions for Claude, plus one parked "future feature"
 
 You'll plan and build the rest yourself during the course — plain HTML, CSS, and vanilla JS, no build step. This project is your canvas for every exercise.
-
----
-
-## Course outline
-
-| Time | Section |
-|------|---------|
-| 09:00–10:00 | Foundations & First Contact |
-| 10:10–11:00 | The Core Workflow |
-| 11:15–12:05 | Make it Yours: Config & Context |
-| 12:15–12:30 | More Power |
-| 12:30–13:00 | Claude in a Team |
-
-Full outline: [d.try.no/claude-code-kurs-outline](https://d.try.no/claude-code-kurs-outline)
