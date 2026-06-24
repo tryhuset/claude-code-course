@@ -113,7 +113,7 @@ What's in there:
   README.md    describes your app and its core features
   CLAUDE.md    standing instructions + a parked "future feature"
 
-Next up: open that folder and use plan mode to figure out how to
+Next up: drop into plan mode right here and figure out how to
 build it. The course will walk you through each step.
 ```
 
