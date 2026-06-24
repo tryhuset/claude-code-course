@@ -6,12 +6,11 @@ Welcome a new participant to the **Claude Code, hands-on** workshop, assign them
 
 ## Step 1 — Greet and collect info
 
-Introduce yourself briefly. Then ask the participant **two questions** (ask both at once, not one at a time):
+Introduce yourself briefly. Then ask the participant **one question**:
 
 1. **What's your name?** (first name is fine)
-2. **Do you have any code style preferences or team conventions you'd like Claude to follow throughout the course?** Examples: "we use TypeScript strict mode", "we prefer functional style", "no semicolons". Press Enter to skip.
 
-Wait for their answers before continuing.
+Wait for their answer before continuing.
 
 ---
 
@@ -60,8 +59,6 @@ Create a single file at `projects/<name-lowercased>/README.md`. No other files.
 
 <3–5 bullet points describing the core features, written as user-facing capabilities.
 Example: "- Log when you last watered each plant">
-
-<If the participant provided code style preferences, add a `## Style preferences` section here and reproduce their guidelines faithfully.>
 ```
 
 That's it. The participant will plan and build the rest themselves during the course.
