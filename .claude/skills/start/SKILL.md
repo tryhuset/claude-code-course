@@ -1,6 +1,6 @@
 ---
 name: start
-description: Welcome a new participant to the Claude Code hands-on workshop, assign them a unique project idea, and scaffold their project folder (README.md + CLAUDE.md) so they're ready to build from minute one.
+description: Get a project to build for the Claude Code workshop — you'll be assigned an app idea and get a ready-to-go project folder with a README spec and a CLAUDE.md, so you can start building right away.
 ---
 
 # /start — Claude Code Course Onboarding
