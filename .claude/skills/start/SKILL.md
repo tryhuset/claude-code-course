@@ -59,6 +59,8 @@ Create **two files** in the current repo root — and only these two. Don't make
 
 The human-facing description of the app and its features.
 
+Keep every feature simple enough to build in plain HTML · CSS · vanilla JS with `localStorage` for persistence. **No third-party integrations, no backend, no accounts, no real notifications/email/SMS, no external APIs.** If the app's one-liner mentions "reminders," interpret that as an in-page list of what's due — not push notifications.
+
 ```markdown
 # <App Name>
 
@@ -87,8 +89,9 @@ Project context for Claude Code sessions in this repo.
 <!-- FUTURE FEATURE (not yet) -->
 <!-- <One parked feature that extends the app — do NOT build it now.
      We turn this into an artifact and build it with goal mode in Block 2.>
-     Pick something that fits the assigned app, e.g. a reminder/notification,
-     an export, or a simple stats view. -->
+     Keep it buildable in vanilla JS + localStorage, no third-party services.
+     Good fits: a simple stats/summary view, a search or filter, sorting,
+     a "due today" list, or export to a downloadable file. -->
 ```
 
 That's it. The participant will plan and build the rest themselves during the course.
