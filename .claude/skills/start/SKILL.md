@@ -53,7 +53,7 @@ Tell the participant which app they got and why it suits them (be brief and warm
 
 ## Step 3 — Scaffold the project
 
-Create **two files** in the current repo root — and only these two. Don't make any subfolders; the participant continues working right here.
+Create **one folder** named after the assigned app (kebab-case, e.g. `recipe-box`) directly in the current repo root, and put **two files** inside it — and only these two. Don't nest any further subfolders.
 
 ### `README.md` — the spec (what to build)
 
@@ -105,21 +105,22 @@ After creating the files, display this:
 ```
 Your project is ready.
 
-  App:   <App Name>
-  Idea:  <one-liner>
+  App:    <App Name>
+  Idea:   <one-liner>
+  Folder: <app-name-kebab>/
 
 What's in there:
   README.md    describes your app and its core features
   CLAUDE.md    standing instructions + a parked "future feature"
 
-Next up: use plan mode right here to figure out how to build it.
-The course will walk you through each step.
+Next up: open that folder and use plan mode to figure out how to
+build it. The course will walk you through each step.
 ```
 
 ---
 
 ## Notes for instructors
 
-- This skill is idempotent: re-running it with the same name produces the same idea and the same two files. Safe to run again if something went wrong.
+- This skill is idempotent: re-running it with the same name produces the same idea and the same folder with the same two files. Safe to run again if something went wrong.
 - The deterministic idea assignment means instructors can predict each participant's project in advance.
 - If a participant genuinely dislikes their assigned app, allow them to pick any other from the list — consistency matters less than motivation.

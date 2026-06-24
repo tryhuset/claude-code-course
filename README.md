@@ -23,7 +23,7 @@ This is done together at the start of the course. Two options — the instructor
 ### Option A — one-liner (recommended)
 
 ```bash
-mkdir -p ~/.claude/skills && curl -fsSL https://raw.githubusercontent.com/tryhuset/claude-code-course/main/.claude/skills/start.md -o ~/.claude/skills/start.md
+mkdir -p ~/.claude/skills/start && curl -fsSL https://raw.githubusercontent.com/tryhuset/claude-code-course/main/.claude/skills/start/SKILL.md -o ~/.claude/skills/start/SKILL.md
 ```
 
 ### Option B — clone the repo
@@ -51,7 +51,7 @@ Claude will ask for your name, then assign you a project and scaffold the folder
 
 1. Asks for your name
 2. Assigns you a unique app idea (deterministic — same name always gets the same project)
-3. Creates `projects/<your-name>/` with just two files:
+3. Creates a folder named after your app (e.g. `recipe-box/`) with just two files:
    - `README.md` — the spec: what your app should do and its core features
    - `CLAUDE.md` — standing instructions for Claude, plus one parked "future feature"
 
