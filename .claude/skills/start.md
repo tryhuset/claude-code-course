@@ -46,9 +46,13 @@ Tell the participant which app they got and why it suits them (be brief and warm
 
 ---
 
-## Step 3 — Create the README
+## Step 3 — Scaffold the project
 
-Create a single file at `projects/<name-lowercased>/README.md`. No other files.
+Create the participant's project folder at `projects/<name-lowercased>/` with **two files** — and only these two.
+
+### `README.md` — the spec (what to build)
+
+The human-facing description of the app and its features.
 
 ```markdown
 # <App Name>
@@ -61,13 +65,34 @@ Create a single file at `projects/<name-lowercased>/README.md`. No other files.
 Example: "- Log when you last watered each plant">
 ```
 
+### `CLAUDE.md` — standing instructions for Claude
+
+How Claude should work in this repo (read into context every session). This is **not** the app spec — keep the feature description in the README. Put the working rules and one parked feature here.
+
+```markdown
+# <App Name>
+
+Project context for Claude Code sessions in this repo.
+
+## Rules
+- Keep features small and focused.
+- Build only one thing at a time — token cost is real.
+- Plain HTML · CSS · vanilla JS. No build step.
+
+<!-- FUTURE FEATURE (not yet) -->
+<!-- <One parked feature that extends the app — do NOT build it now.
+     We turn this into an artifact and build it with goal mode in Block 2.>
+     Pick something that fits the assigned app, e.g. a reminder/notification,
+     an export, or a simple stats view. -->
+```
+
 That's it. The participant will plan and build the rest themselves during the course.
 
 ---
 
 ## Step 4 — Show the summary
 
-After creating the file, display this:
+After creating the files, display this:
 
 ```
 Your project is ready.
@@ -77,7 +102,8 @@ Your project is ready.
   Folder: projects/<name>/
 
 What's in there:
-  README.md   describes your app and its core features
+  README.md    describes your app and its core features
+  CLAUDE.md    standing instructions + a parked "future feature"
 
 Next up: open the folder in Claude Code and use plan mode to
 figure out how to build it. The course will walk you through each step.
