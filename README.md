@@ -43,22 +43,19 @@ Once installed, open Claude Code and type:
 /start
 ```
 
-Claude will ask for your name and any code style preferences, then generate your personal project and scaffold the folder structure. Takes about a minute.
+Claude will ask for your name, then assign you a project and scaffold the folder. Takes about a minute.
 
 ---
 
 ## What `/start` does
 
-1. Asks for your name and optional code style preferences
+1. Asks for your name
 2. Assigns you a unique app idea (deterministic — same name always gets the same project)
-3. Creates `projects/<your-name>/` with:
-   - `CLAUDE.md` — project context and conventions Claude will follow
-   - `README.md` — human-readable intro
-   - `src/main.ts` — entry point stub
-   - `data/` — where your app will persist data
-   - `package.json` — run with `npm start`
+3. Creates `projects/<your-name>/` with just two files:
+   - `README.md` — the spec: what your app should do and its core features
+   - `CLAUDE.md` — standing instructions for Claude, plus one parked "future feature"
 
-You'll use this project as your canvas for every exercise in the course.
+You'll plan and build the rest yourself during the course — plain HTML, CSS, and vanilla JS, no build step. This project is your canvas for every exercise.
 
 ---
 
