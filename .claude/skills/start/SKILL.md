@@ -1,3 +1,8 @@
+---
+name: start
+description: Welcome a new participant to the Claude Code hands-on workshop, assign them a unique project idea, and scaffold their project folder (README.md + CLAUDE.md) so they're ready to build from minute one.
+---
+
 # /start — Claude Code Course Onboarding
 
 Welcome a new participant to the **Claude Code, hands-on** workshop, assign them a unique project idea, and scaffold their project folder so they're ready to build from minute one.
